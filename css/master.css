@@ -1,0 +1,96 @@
+.wrapper{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+/*Styling all the session's elements*/
+.wrapper .session{
+	width: 100%;
+	height: 101.5vh;
+}
+.wrapper .session .session-aside{
+  background-color: #209cee;
+  height: 101.5vh;
+}
+.wrapper .session .session-section{
+	background-color: #fff;
+	height: 100vh;
+}
+.wrapper .session .branding{
+	width: 100%;
+	padding: 20px;
+}
+.wrapper .session .branding .pos-logo{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+.wrapper .session .branding .pos-logo p{
+	position: absolute;
+	top: 3%;
+	font-weight: lighter;
+	font-size: 30px;
+}
+.wrapper .session .header{
+	padding: 0 20px;
+}
+.wrapper .session #section{
+	padding: 0 20px;
+}
+.wrapper .session #section .form-area{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: 19%;
+	-moz-transform: translateY(19%);
+	-webkit-transform: translateY(19%);
+	transform: translateY(19%);
+}
+.wrapper .session #section .form-area .login-form{
+	width: 50%;
+	margin: 0 auto;
+}
+.wrapper .session #section .form-area h1{
+	color: #209cee;
+	margin: 0 0 90px 0;
+}
+.wrapper .session #section .form-area input{
+    margin-bottom: 20px;
+    outline: none!important;
+    border: 0;
+    border-radius: 0!important;
+    border-bottom: 2px solid #e5e5e5;
+    box-shadow: 0 0 0 transparent!important;
+}
+.wrapper .session #section .form-area input:focus,
+.wrapper .session #section .form-area input:active{
+	border-bottom: 2px solid #209cee;
+}
+.wrapper .session #section .form-area .border{
+	width: 0%;
+	height: 2px;
+	background-color: #209cee;
+	position: relative;
+	top: -23px;
+}
+.wrapper .session #section .form-area button{
+    border-radius: 50px;
+    width: 179px;
+    height: 42px;
+    float: right;
+}
+.wrapper .session-footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
